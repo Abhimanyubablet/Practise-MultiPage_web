@@ -1,0 +1,45 @@
+.Testi-back{
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  }
+  .testimonial::after{
+    content: "";
+    display: block;
+    background-color: rgb(77, 88, 88);
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  .Testimonial-item{
+    box-sizing: content-box;
+  min-height: 320px;
+  }
+  .Testimonial-item p{
+      font-style: italic;
+      margin: 0 15px 0 15px;
+      padding: 20px 20px 60px 20px;
+      background: #fff;
+      position: relative;
+      border-radius: 6px;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  .comma{
+    display: inline-block;
+  left: -5px;
+  position: relative;
+  }
+  .comma::before{
+    box-sizing: border-box;
+  }
+  .testimonial-image{
+      width: 90px;
+      border-radius: 50%;
+      margin: -40px 0 0 40px;
+      position: relative;
+      z-index: 2;
+      border: 6px solid #fff;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1)
+  }

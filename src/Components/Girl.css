@@ -1,0 +1,21 @@
+.container-fluid{
+    max-width: 1400px;
+  }
+  .volup{
+    font-family: "Playfair Display", serif;
+  }
+  .lorem{
+    font-family: "Playfair Display", serif;
+    font-size: 17px;
+    color:#88757d;
+  
+  }
+  .smile{
+    font-size: 40px;
+    color:#eeafca;
+  }
+  .happy{
+    font-size: 40px;
+    position: absolute;
+    margin-top: -4%;
+  }

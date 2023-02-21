@@ -1,0 +1,212 @@
+
+  .main-color{
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+    
+  }
+  .skill::after{
+    content: "";
+    display: block;
+    background-color: rgb(77, 88, 88);
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    font-family: "Playfair Display", serif;
+    color: #2c4964;
+  }
+  .resume{
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  }
+  .heading-resume::after{
+    content: "";
+    display: block;
+    background-color: rgb(77, 88, 88);
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .present{
+    background-color: rgb(241, 231, 231);
+    text-align: center;
+    padding: 5px;
+  }
+  .barkley::before{
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -7px;
+  top: 44px;
+  background: #fff;
+  border: 2px solid #d43076;
+  }
+  .Master::before{
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -7px;
+  top: 40px;
+  background: #fff;
+  border: 2px solid #d43076;
+  }
+  .Bachelor::before{
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -7px;
+  top: 0px;
+  background: #fff;
+  border: 2px solid #d43076;
+  }
+  .senior::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -7px;
+    top: 40px;
+    background: #fff;
+    border: 2px solid #d43076;
+    }
+  .graphic::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -7px;
+    top: 40px;
+    background: #fff;
+    border: 2px solid #d43076;
+  }
+  .service-back{
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  } 
+  .servi::after{
+    content: "";
+    display: block;
+    background-color: rgb(77, 88, 88);
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  .solid{
+    background-color: rgb(161, 93, 93);
+     width: 60px;
+      height: 60px; border-radius: 60px; 
+      padding: 10px;
+  }
+  .solid:hover{
+    background-color:white;
+  }
+  .volly{
+    height: 230px;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+  }
+  .volly:hover{
+  background-color: rgb(189, 15, 73);
+  color: white;
+  transition: ease-out;
+  }
+  
+  .volly:hover .solid {
+    background-color: rgb(219, 15, 134);
+  }
+  
+  
+  .ball{
+    font-size: 40px;
+     background-color:rgb(240, 11, 125);
+     border-radius: 50% ;
+     color:white;
+  } 
+  .portfolio-back{
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  }
+  .port::after{
+    content: "";
+    display: block;
+    background-color: rgb(77, 88, 88);
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .game {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  
+  }
+  
+  .game::before {
+   content: "";
+  background: rgba(44, 73, 100, 0.6);
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 30px;
+  bottom: 30px;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+  }
+  
+  .game:hover::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+  }
+  .game-info{
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  }
+  .game:hover .game-info{
+    opacity: 1;
+    top: calc(50% - 48px);
+    color: white;
+  }
+  .game-link{
+  opacity: 0;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  text-align: center;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+  }
+  .game:hover .game-link {
+    opacity: 1;
+    bottom: calc(50% - 50px);
+    
+  }
+  
+  .bx{
+    color: white;
+  } 
+  .bx:hover{
+    color: #bb0e59;
+  }
